@@ -1,13 +1,57 @@
-h1 {
-    color: red;
-    font-size: 43ppx;
+/* FILEPATH: /workspaces/Lucas-Gates.github.io/app.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p {
-    color: blue;
-    text-align: center;
-}
-
+/* Set a background color */
 body {
-    background-color: yellow;
+    background-color: #f5f5f5;
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Add some padding and border to the content */
+.content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
