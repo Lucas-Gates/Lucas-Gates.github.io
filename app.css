@@ -1,4 +1,13 @@
 h1 {
     color: red;
+    font-size: 43ppx;
+}
+
+p {
+    color: blue;
     text-align: center;
+}
+
+body {
+    background-color: yellow;
 }
