@@ -27,19 +27,19 @@ title: "Projects"
 
 <div class="project-grid">
 
-<a href="isa.qmd" class="project-card">
+<a href="projects/isa.qmd" class="project-card">
 Internship Skill Analysis
 </a>
 
-<a href="missouri.qmd" class="project-card">
+<a href="projects/missouri.qmd" class="project-card">
 Missouri Budget Graph Maker
 </a>
 
-<a href="ffdc.qmd" class="project-card">
+<a href="projects/ffdc.qmd" class="project-card">
 Fast Food Data Comparison
 </a>
 
-<a href="soundtrack_safeguard.qmd" class="project-card">
+<a href="projects/soundtrack_safeguard.qmd" class="project-card">
 Soundtrack Safeguard
 </a>
 

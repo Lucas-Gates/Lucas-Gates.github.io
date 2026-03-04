@@ -30,9 +30,9 @@
   {
     "objectID": "faq.html",
     "href": "faq.html",
-    "title": "FAQ",
+    "title": "Frequently Asked Questions",
     "section": "",
-    "text": "I’m looking for internship opportunities in data science / analytics / software engineering.\n\n\n\nPython, R, SQL.\n\n\n\nEmail: lucascgates@gmail.com\nGitHub: https://github.com/Lucas-Gates\n\n\n\nI-49."
+    "text": "What am I looking for?\nI’m looking for internship opportunities in data science / analytics / software engineering.\n\n\nWhat tools do you use?\nPython, R, SQL.\n\n\nHow should I contact you?\nEmail: lucascgates@gmail.com\nGitHub: https://github.com/Lucas-Gates\n\n\nFavorite Interstate Highway?\nI-49."
   },
   {
     "objectID": "faq.html#faq",
@@ -65,6 +65,125 @@
   {
     "objectID": "missouri.html",
     "href": "missouri.html",
+    "title": "Missouri Budget Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "project_pages/soundtrack_safeguard.html",
+    "href": "project_pages/soundtrack_safeguard.html",
+    "title": "Soundtrack Safeguard",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/SoundtrackSafeguard\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "project_pages/isa.html",
+    "href": "project_pages/isa.html",
+    "title": "Internship Skill Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/internship_skill_analysis\n\nSummary\nThis project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.\n\n\nKey Results\n\nPython and SQL are the most common technical skills\nDistinct stacks appear:\n\nBI: SQL Server + Power BI\nML: PyTorch + TensorFlow\nData Engineering: Hadoop + Spark\n\n\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "project_pages/ffdc.html",
+    "href": "project_pages/ffdc.html",
+    "title": "Fast Food Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "project_pages/missouri.html",
+    "href": "project_pages/missouri.html",
+    "title": "Missouri Budget Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "pages/project_pages/soundtrack_safeguard.html",
+    "href": "pages/project_pages/soundtrack_safeguard.html",
+    "title": "Soundtrack Safeguard",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/SoundtrackSafeguard\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "pages/project_pages/isa.html",
+    "href": "pages/project_pages/isa.html",
+    "title": "Internship Skill Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/internship_skill_analysis\n\nSummary\nThis project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.\n\n\nKey Results\n\nPython and SQL are the most common technical skills\nDistinct stacks appear:\n\nBI: SQL Server + Power BI\nML: PyTorch + TensorFlow\nData Engineering: Hadoop + Spark\n\n\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "pages/projects.html",
+    "href": "pages/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Internship Skill Analysis \n Missouri Budget Graph Maker \n Fast Food Data Comparison \n Soundtrack Safeguard"
+  },
+  {
+    "objectID": "pages/faq.html",
+    "href": "pages/faq.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "What am I looking for?\nI’m looking for internship opportunities in data science / analytics / software engineering.\n\n\nWhat tools do you use?\nPython, R, SQL.\n\n\nHow should I contact you?\nEmail: lucascgates@gmail.com\nGitHub: https://github.com/Lucas-Gates\n\n\nFavorite Interstate Highway?\nI-49."
+  },
+  {
+    "objectID": "pages/project_pages/ffdc.html",
+    "href": "pages/project_pages/ffdc.html",
+    "title": "Fast Food Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "pages/project_pages/missouri.html",
+    "href": "pages/project_pages/missouri.html",
+    "title": "Missouri Budget Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "pages/resume.html",
+    "href": "pages/resume.html",
+    "title": "Lucas Gates",
+    "section": "",
+    "text": "blank for now"
+  },
+  {
+    "objectID": "pages/index.html",
+    "href": "pages/index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hi, I’m Lucas Gates, a Data Science student at the University of Missouri (Mizzou).\nI’m interested in data science + software engineering, especially projects involving: - Python / R - data pipelines - analytics and visualization\nYou can find my work on GitHub: https://github.com/Lucas-Gates"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Lucas Gates",
+    "section": "",
+    "text": "blank for now"
+  },
+  {
+    "objectID": "projects/soundtrack_safeguard.html",
+    "href": "projects/soundtrack_safeguard.html",
+    "title": "Soundtrack Safeguard",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/SoundtrackSafeguard\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "projects/isa.html",
+    "href": "projects/isa.html",
+    "title": "Internship Skill Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/internship_skill_analysis\n\nSummary\nThis project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.\n\n\nKey Results\n\nPython and SQL are the most common technical skills\nDistinct stacks appear:\n\nBI: SQL Server + Power BI\nML: PyTorch + TensorFlow\nData Engineering: Hadoop + Spark\n\n\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "projects/ffdc.html",
+    "href": "projects/ffdc.html",
+    "title": "Fast Food Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "projects/missouri.html",
+    "href": "projects/missouri.html",
     "title": "Missouri Budget Data Analysis",
     "section": "",
     "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
