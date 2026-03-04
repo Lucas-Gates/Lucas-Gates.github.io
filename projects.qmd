@@ -9,6 +9,6 @@ title: "Projects"
 - Repo: https://github.com/Lucas-Gates/<YOUR-REPO-NAME>
 - Key figures:
 
-![](assets/early-career-skills/top_20_skills.png)
+![](assets/top_20_skills.png)
 
-![](assets/early-career-skills/top_lift_pairs.png)
+![](assets/top_lift_pairs.png)
