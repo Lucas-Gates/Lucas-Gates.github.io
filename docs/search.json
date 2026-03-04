@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Tools: Python (pandas), R (tidyverse/ggplot2)\nFocus: early-career skills demand + skill “stacks” using co-occurrence and lift analysis.\n\nRepo: https://github.com/Lucas-Gates/\nKey figures:"
+    "text": "Internship Skill Analysis \n\n\n Missouri Budget Graph Maker \n\n\n Fast Food Data Comparison \n\n\n Soundtrack Safeguard"
   },
   {
     "objectID": "projects.html#early-career-data-skills-intelligence",
@@ -19,5 +19,12 @@
     "title": "Home",
     "section": "",
     "text": "Hi, I’m Lucas Gates, a Data Science student at the University of Missouri (Mizzou).\nI’m interested in data science + software engineering, especially projects involving: - Python / R - data pipelines - analytics and visualization\nYou can find my work on GitHub: https://github.com/Lucas-Gates"
+  },
+  {
+    "objectID": "isa.html",
+    "href": "isa.html",
+    "title": "Internship Skill Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/internship_skill_analysis\n\nSummary\nThis project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.\n\n\nKey Results\n\nPython and SQL are the most common technical skills\nDistinct stacks appear:\n\nBI: SQL Server + Power BI\nML: PyTorch + TensorFlow\nData Engineering: Hadoop + Spark\n\n\n\n\nExample Visualizations"
   }
 ]

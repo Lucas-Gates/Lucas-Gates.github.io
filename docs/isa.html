@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Lucas Gates</title>
+<title>Internship Skill Analysis – Lucas Gates</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -121,15 +121,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
+  <li><a href="#example-visualizations" id="toc-example-visualizations" class="nav-link" data-scroll-target="#example-visualizations">Example Visualizations</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Internship Skill Analysis</h1>
 </div>
 
 
@@ -146,54 +154,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  margin-top: 40px;
-}
-
-.project-card {
-  padding: 60px 40px;
-  border-radius: 12px;
-  background-color: #f5f7fa;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 600;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
-  background-color: #e9f2ff;
-}
-
-.project-card a {
-  text-decoration: none;
-  color: black;
-  display: block;
-}
-
-</style>
-<div class="project-grid">
-<div class="project-card">
-<p><a href="project_skills.qmd"> Internship Skill Analysis </a></p>
-</div>
-<div class="project-card">
-<p><a href="missouri.qmd"> Missouri Budget Graph Maker </a></p>
-</div>
-<div class="project-card">
-<p><a href="ffdc.qmd"> Fast Food Data Comparison </a></p>
-</div>
-<div class="project-card">
-<p><a href="soundtrack_safeguard.qmd"> Soundtrack Safeguard </a></p>
-</div>
-</div>
+<p><strong>Repo:</strong> https://github.com/Lucas-Gates/internship_skill_analysis</p>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>This project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.</p>
+</section>
+<section id="key-results" class="level3">
+<h3 class="anchored" data-anchor-id="key-results">Key Results</h3>
+<ul>
+<li>Python and SQL are the most common technical skills</li>
+<li>Distinct stacks appear:
+<ul>
+<li>BI: SQL Server + Power BI</li>
+<li>ML: PyTorch + TensorFlow</li>
+<li>Data Engineering: Hadoop + Spark</li>
+</ul></li>
+</ul>
+</section>
+<section id="example-visualizations" class="level3">
+<h3 class="anchored" data-anchor-id="example-visualizations">Example Visualizations</h3>
+<p><img src="assets/early-career-skills/top_20_skills.png" class="img-fluid"></p>
+<p><img src="assets/early-career-skills/top_lift_pairs.png" class="img-fluid"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
