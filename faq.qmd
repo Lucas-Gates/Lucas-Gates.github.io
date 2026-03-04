@@ -1,0 +1,16 @@
+---
+title: "Frequently Asked Questions"
+---
+
+### What am I looking for?
+I’m looking for internship opportunities in data science / analytics / software engineering.
+
+### What tools do you use?
+Python, R, SQL.
+
+### How should I contact you?
+Email: lucascgates@gmail.com  
+GitHub: https://github.com/Lucas-Gates
+
+### Favorite Interstate Highway?
+I-49.

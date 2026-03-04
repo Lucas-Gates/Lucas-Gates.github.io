@@ -7,5 +7,26 @@
   },
   "isa.qmd": {
     "isa.html": "21b19a8b"
+  },
+  "faq.qmd": {
+    "faq.html": "d87705a6"
+  },
+  "docs/ffdc.qmd": {
+    "ffdc.html": "d4755ed3"
+  },
+  "docs/missouri.qmd": {
+    "missouri.html": "493dbbcf"
+  },
+  "docs/soundtrack_safeguard.qmd": {
+    "soundtrack_safeguard.html": "b3defc7d"
+  },
+  "ffdc.qmd": {
+    "ffdc.html": "ee65f871"
+  },
+  "missouri.qmd": {
+    "missouri.html": "6ead90b3"
+  },
+  "soundtrack_safeguard.qmd": {
+    "soundtrack_safeguard.html": "4af4432a"
   }
 }

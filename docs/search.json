@@ -26,5 +26,47 @@
     "title": "Internship Skill Analysis",
     "section": "",
     "text": "Repo: https://github.com/Lucas-Gates/internship_skill_analysis\n\nSummary\nThis project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.\n\n\nKey Results\n\nPython and SQL are the most common technical skills\nDistinct stacks appear:\n\nBI: SQL Server + Power BI\nML: PyTorch + TensorFlow\nData Engineering: Hadoop + Spark\n\n\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "I’m looking for internship opportunities in data science / analytics / software engineering.\n\n\n\nPython, R, SQL.\n\n\n\nEmail: lucascgates@gmail.com\nGitHub: https://github.com/Lucas-Gates\n\n\n\nI-49."
+  },
+  {
+    "objectID": "faq.html#faq",
+    "href": "faq.html#faq",
+    "title": "FAQ",
+    "section": "",
+    "text": "I’m looking for internship opportunities in data science / analytics / software engineering.\n\n\n\nPython, R, SQL.\n\n\n\nEmail: lucascgates@gmail.com\nGitHub: https://github.com/Lucas-Gates\n\n\n\nI-49."
+  },
+  {
+    "objectID": "faq.html#frequently-asked-questions",
+    "href": "faq.html#frequently-asked-questions",
+    "title": "FAQ",
+    "section": "",
+    "text": "I’m looking for internship opportunities in data science / analytics / software engineering.\n\n\n\nPython, R, SQL.\n\n\n\nEmail: lucascgates@gmail.com\nGitHub: https://github.com/Lucas-Gates\n\n\n\nI-49."
+  },
+  {
+    "objectID": "soundtrack_safeguard.html",
+    "href": "soundtrack_safeguard.html",
+    "title": "Soundtrack Safeguard",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/SoundtrackSafeguard\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "ffdc.html",
+    "href": "ffdc.html",
+    "title": "Fast Food Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+  },
+  {
+    "objectID": "missouri.html",
+    "href": "missouri.html",
+    "title": "Missouri Budget Data Analysis",
+    "section": "",
+    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
   }
 ]

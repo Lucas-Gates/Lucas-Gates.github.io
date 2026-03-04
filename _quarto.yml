@@ -12,6 +12,8 @@ website:
         text: Projects
       - href: resume.qmd
         text: Resume
+      - href: faq.qmd
+        text: FAQ
     right:
       - icon: github
         href: https://github.com/Lucas-Gates
