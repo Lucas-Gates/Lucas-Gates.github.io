@@ -2,13 +2,64 @@
 title: "Projects"
 ---
 
-## Early-Career Data Skills Intelligence
-**Tools:** Python (pandas), R (tidyverse/ggplot2)  
-**Focus:** early-career skills demand + skill “stacks” using co-occurrence and lift analysis.
+<style>
 
-- Repo: https://github.com/Lucas-Gates/<YOUR-REPO-NAME>
-- Key figures:
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
 
-![](assets/top_20_skills.png)
+.project-card {
+  padding: 60px 40px;
+  border-radius: 12px;
+  background-color: #f5f7fa;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
 
-![](assets/top_lift_pairs.png)
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+  background-color: #e9f2ff;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+</style>
+
+
+<div class="project-grid">
+
+<div class="project-card">
+<a href="project_skills.qmd">
+Internship Skill Analysis
+</a>
+</div>
+
+<div class="project-card">
+<a href="missouri.qmd">
+Missouri Budget Graph Maker
+</a>
+</div>
+
+<div class="project-card">
+<a href="ffdc.qmd">
+Fast Food Data Comparison
+</a>
+</div>
+
+<div class="project-card">
+<a href="soundtrack_safeguard.qmd">
+Soundtrack Safeguard
+</a>
+</div>
+
+</div>

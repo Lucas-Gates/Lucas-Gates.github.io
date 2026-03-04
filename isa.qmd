@@ -1,0 +1,22 @@
+---
+title: "Internship Skill Analysis"
+---
+
+**Repo:** https://github.com/Lucas-Gates/internship_skill_analysis
+
+### Summary
+This project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.
+
+### Key Results
+
+- Python and SQL are the most common technical skills
+- Distinct stacks appear:
+  - BI: SQL Server + Power BI
+  - ML: PyTorch + TensorFlow
+  - Data Engineering: Hadoop + Spark
+
+### Example Visualizations
+
+![](assets/early-career-skills/top_20_skills.png)
+
+![](assets/early-career-skills/top_lift_pairs.png)
