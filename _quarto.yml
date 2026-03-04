@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lucas Gates"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+    right:
+      - icon: github
+        href: https://github.com/Lucas-Gates
+
+format:
+  html:
+    theme: cosmo
+    toc: true
