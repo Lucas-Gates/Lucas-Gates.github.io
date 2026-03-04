@@ -17,6 +17,6 @@ This project analyzes early-career job postings to identify in-demand skills and
 
 ### Example Visualizations
 
-![](assets/early-career-skills/top_20_skills.png)
+![](../assets/top_20_skills.png)
 
-![](assets/early-career-skills/top_lift_pairs.png)
+![](../assets/top_lift_pairs.png)
