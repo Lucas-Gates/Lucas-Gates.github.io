@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fast Food Data Analysis – Lucas Gates</title>
+<title>Fast Food Data Comparison – Lucas Gates</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -130,9 +130,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
-  <li><a href="#example-visualizations" id="toc-example-visualizations" class="nav-link" data-scroll-target="#example-visualizations">Example Visualizations</a></li>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link" data-scroll-target="#the-project">The Project</a></li>
+  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
+  <li><a href="#skills-demonstrated" id="toc-skills-demonstrated" class="nav-link" data-scroll-target="#skills-demonstrated">Skills demonstrated</a></li>
   </ul>
 </nav>
     </div>
@@ -141,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Fast Food Data Analysis</h1>
+<h1 class="title">Fast Food Data Comparison</h1>
 </div>
 
 
@@ -159,14 +160,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Repo:</strong> https://github.com/Lucas-Gates/fast-food-analysis</p>
-<section id="summary" class="level3">
-<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<section id="problem" class="level3">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>People compare fast food chains using opinions, but there’s a lot of measurable data: - nutrition per item - price/value - reviews</p>
 </section>
-<section id="key-results" class="level3">
-<h3 class="anchored" data-anchor-id="key-results">Key Results</h3>
+<section id="the-project" class="level3">
+<h3 class="anchored" data-anchor-id="the-project">The Project</h3>
+<p>A data pipeline that collects and compares fast-food chains using multiple sources, then stores everything in a SQLite database for analysis.</p>
+<ul>
+<li><code>collect_data.py</code> includes web scraping logic (menus/prices/calories) and external data collection</li>
+<li><code>store_data.py</code> builds a normalized SQLite database (<code>final.db</code>) and loads datasets into tables</li>
+<li><code>analyze_data.py</code> queries the DB and produces comparison plots (nutrition metrics, etc.)</li>
+</ul>
 </section>
-<section id="example-visualizations" class="level3">
-<h3 class="anchored" data-anchor-id="example-visualizations">Example Visualizations</h3>
+<section id="key-features" class="level3">
+<h3 class="anchored" data-anchor-id="key-features">Key Features</h3>
+<ul>
+<li>Multi-source ingestion (web + CSV + DB)</li>
+<li>Analysis driven by SQL queries</li>
+<li>Visual comparison outputs</li>
+</ul>
+</section>
+<section id="skills-demonstrated" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated">Skills demonstrated</h3>
+<ul>
+<li>Web scraping (BeautifulSoup + requests)</li>
+<li>Database design + ETL into SQLite</li>
+<li>Analytics using SQL + Python</li>
+<li>Visualization and interpretation</li>
+</ul>
 
 
 </section>

@@ -1,15 +1,31 @@
 ---
-title: "Fast Food Data Analysis"
+title: "Fast Food Data Comparison"
 ---
 
 **Repo:** https://github.com/Lucas-Gates/fast-food-analysis
 
-### Summary
+### Problem
+People compare fast food chains using opinions, but there’s a lot of measurable data:
+- nutrition per item
+- price/value
+- reviews
 
+### The Project
+A data pipeline that collects and compares fast-food chains using multiple sources, then stores everything in a SQLite database for analysis.
 
-### Key Results
+- `collect_data.py` includes web scraping logic (menus/prices/calories) and external data collection
+- `store_data.py` builds a normalized SQLite database (`final.db`) and loads datasets into tables
+- `analyze_data.py` queries the DB and produces comparison plots (nutrition metrics, etc.)
 
+### Key Features
+- Multi-source ingestion (web + CSV + DB)
+- Analysis driven by SQL queries
+- Visual comparison outputs
 
+### Skills demonstrated
+- Web scraping (BeautifulSoup + requests)
+- Database design + ETL into SQLite
+- Analytics using SQL + Python
+- Visualization and interpretation
 
 ### Example Visualizations
-

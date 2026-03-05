@@ -177,16 +177,16 @@
   {
     "objectID": "projects/ffdc.html",
     "href": "projects/ffdc.html",
-    "title": "Fast Food Data Analysis",
+    "title": "Fast Food Data Comparison",
     "section": "",
-    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nProblem\nPeople compare fast food chains using opinions, but there’s a lot of measurable data: - nutrition per item - price/value - reviews\n\n\nThe Project\nA data pipeline that collects and compares fast-food chains using multiple sources, then stores everything in a SQLite database for analysis.\n\ncollect_data.py includes web scraping logic (menus/prices/calories) and external data collection\nstore_data.py builds a normalized SQLite database (final.db) and loads datasets into tables\nanalyze_data.py queries the DB and produces comparison plots (nutrition metrics, etc.)\n\n\n\nKey Features\n\nMulti-source ingestion (web + CSV + DB)\nAnalysis driven by SQL queries\nVisual comparison outputs\n\n\n\nSkills demonstrated\n\nWeb scraping (BeautifulSoup + requests)\nDatabase design + ETL into SQLite\nAnalytics using SQL + Python\nVisualization and interpretation"
   },
   {
     "objectID": "projects/missouri.html",
     "href": "projects/missouri.html",
     "title": "Missouri Budget Graph Maker",
     "section": "",
-    "text": "Problem\nBudget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.\n\n\nWhat I built\nA lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.\n\ncontrol_panel.py implements a Tkinter control panel UI\ngraph.py loads a CSV (for example: 2024_State_Expenditures.csv) and generates Matplotlib bar charts\nmain.py launches the app\n\n\n\nKey features\n\nGUI-driven filtering/sorting\nFast category exploration\nAutomatically generates readable bar charts\n\n\n\nSkills demonstrated\n\nPython desktop UI (Tkinter)\nData wrangling in pandas\nVisualization in Matplotlib\nProject structure + reproducible run entrypoint\n\n\n\nHow to run (typical)\nFrom the project root (where requirements are installed): ```bash python src/python/main.py"
+    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nProblem\nBudget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.\n\n\nThe Project\nA lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.\n\ncontrol_panel.py implements a Tkinter control panel UI\ngraph.py loads a CSV (for example: 2024_State_Expenditures.csv) and generates Matplotlib bar charts\nmain.py launches the app\n\n\n\nKey features\n\nGUI-driven filtering/sorting\nFast category exploration\nAutomatically generates readable bar charts\n\n\n\nSkills demonstrated\n\nPython desktop UI (Tkinter)\nData wrangling in pandas\nVisualization in Matplotlib"
   },
   {
     "objectID": "projects/missouri.html#missouri-budget-graph-maker",
