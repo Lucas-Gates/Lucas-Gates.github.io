@@ -4,12 +4,25 @@ title: "Soundtrack Safeguard"
 
 **Repo:** https://github.com/Lucas-Gates/SoundtrackSafeguard
 
-### Summary
+### Problem
+In classrooms or school events, playlists can accidentally include songs with inappropriate language or content. Teachers often want a fast way to screen and control what gets played.
 
+### What I built
+A desktop application that helps make Spotify safer for classroom use by scanning playlists and using user-defined restrictions.
 
-### Key Results
+- The app launches via `main.py` using Tkinter
+- `Playlist_Scanner.py` fetches playlist + track metadata via the Spotify API
+- `OpenAI_app.py` evaluates song content against restrictions (and supports saved settings)
+- `Spotify_Song_Adder.py` uses Spotipy OAuth to add approved songs to playlists
 
+### Key features
+- Playlist scanning and filtering workflow
+- Configurable restrictions (artists/words/settings)
+- Saved preferences for faster repeat use
+- Spotify integration (read playlist + modify playlist)
 
-
-### Example Visualizations
-
+### Skills demonstrated
+- Python desktop UI (Tkinter)
+- API integration (Spotify)
+- OAuth authentication flow (Spotipy/Flask)
+- Responsible filtering logic + saved settings
