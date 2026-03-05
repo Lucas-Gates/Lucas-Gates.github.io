@@ -23,5 +23,3 @@ A lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data a
 - Python desktop UI (Tkinter)
 - Data wrangling in pandas
 - Visualization in Matplotlib
-
-### Example Visualizations

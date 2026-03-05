@@ -27,5 +27,3 @@ A data pipeline that collects and compares fast-food chains using multiple sourc
 - Database design + ETL into SQLite
 - Analytics using SQL + Python
 - Visualization and interpretation
-
-### Example Visualizations
