@@ -4,16 +4,27 @@ title: "Internship Skill Analysis"
 
 **Repo:** https://github.com/Lucas-Gates/internship_skill_analysis
 
-### Summary
-This project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.
+### Problem
+Early-career data roles have inconsistent job titles and messy skill labels. It’s hard to quickly understand what skills and “stacks” are most common for internships/entry-level roles.
 
-### Key Results
+### The Project
+An end-to-end Python + R analysis pipeline that:
+- merges job postings, extracted skills, and summaries using `job_link`
+- filters for early-career roles (intern/new grad/entry-level keywords)
+- normalizes skill labels using alias mapping + whitespace/case cleaning
+- categorizes skills (Language/Database/Cloud/ML/DE/Viz/Stats/Soft Skills)
+- computes skill co-occurrence and lift (association strength)
+- generates polished R visuals for reporting
 
-- Python and SQL are the most common technical skills
-- Distinct stacks appear:
-  - BI: SQL Server + Power BI
-  - ML: PyTorch + TensorFlow
-  - Data Engineering: Hadoop + Spark
+### Example outputs
+- Category prevalence across postings (what % mention Databases, Visualization, etc.)
+- Top skills (SQL, Python, etc.)
+- Lift-based stacks
+
+### Skills demonstrated
+- Data pipeline engineering (joins, cleaning, reproducible outputs)
+- Association analysis (lift) and support filtering
+- R visualization (ggplot2) and communication
 
 ### Example Visualizations
 
