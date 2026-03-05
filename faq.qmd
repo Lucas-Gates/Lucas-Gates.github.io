@@ -1,16 +1,72 @@
 ---
-title: "Frequently Asked Questions"
+title: "FAQ"
 ---
 
-### What am I looking for?
-I’m looking for internship opportunities in data science / analytics / software engineering.
+### What tools and libraries do you use most often?
 
-### What tools do you use?
-Python, R, SQL.
+Python tools:
 
-### How should I contact you?
-Email: lucascgates@gmail.com  
-GitHub: https://github.com/Lucas-Gates
+- pandas  
+- numpy  
+- matplotlib  
+- beautifulsoup  
+- sqlite3  
+
+R tools:
+
+- tidyverse  
+- ggplot2  
+
+Other tools:
+
+- Git / GitHub  
+- SQLite  
+- Quarto  
+- Kaggle datasets  
+
+### What kinds of internships are you looking for?
+I’m interested in internships related to:
+
+- data science  
+- data analytics  
+- machine learning  
+- software engineering  
 
 ### Favorite Interstate Highway?
 I-49.
+
+### What industries interest you?
+I’m interested in industries where data is used to improve things such as:
+
+- technology  
+- finance  
+- healthcare  
+- consumer analytics  
+- public policy  
+
+### What skills are you currently working on improving?
+Right now I’m focusing on improving my skills in:
+
+- statistical analysis  
+- machine learning  
+- data pipelines  
+- data visualization  
+
+### Are you open to collaboration?
+Yes. I enjoy working on projects with others and learning new techniques.
+
+### What was the first programming language you learned?
+Python.
+
+### What is your favorite project you’ve built?
+Soundtrack Safeguard is one of my favorites because it solved an actual problem. My teacher had asked us to do it.
+
+### Pineapple on pizza?
+Pineapple might be the best topping possible on pizza.
+
+### How can someone contact you?
+You can reach me through:
+
+- GitHub: https://github.com/Lucas-Gates  
+- LinkedIn: https://www.linkedin.com/in/lucascgates-/
+- Email: lucascgates@gmail.com

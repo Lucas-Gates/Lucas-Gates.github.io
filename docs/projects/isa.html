@@ -130,8 +130,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link" data-scroll-target="#the-project">The Project</a></li>
+  <li><a href="#example-outputs" id="toc-example-outputs" class="nav-link" data-scroll-target="#example-outputs">Example outputs</a></li>
+  <li><a href="#skills-demonstrated" id="toc-skills-demonstrated" class="nav-link" data-scroll-target="#skills-demonstrated">Skills demonstrated</a></li>
   <li><a href="#example-visualizations" id="toc-example-visualizations" class="nav-link" data-scroll-target="#example-visualizations">Example Visualizations</a></li>
   </ul>
 </nav>
@@ -159,20 +161,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Repo:</strong> https://github.com/Lucas-Gates/internship_skill_analysis</p>
-<section id="summary" class="level3">
-<h3 class="anchored" data-anchor-id="summary">Summary</h3>
-<p>This project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.</p>
+<section id="problem" class="level3">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>Early-career data roles have inconsistent job titles and messy skill labels. It’s hard to quickly understand what skills and “stacks” are most common for internships/entry-level roles.</p>
 </section>
-<section id="key-results" class="level3">
-<h3 class="anchored" data-anchor-id="key-results">Key Results</h3>
+<section id="the-project" class="level3">
+<h3 class="anchored" data-anchor-id="the-project">The Project</h3>
+<p>An end-to-end Python + R analysis pipeline that: - merges job postings, extracted skills, and summaries using <code>job_link</code> - filters for early-career roles (intern/new grad/entry-level keywords) - normalizes skill labels using alias mapping + whitespace/case cleaning - categorizes skills (Language/Database/Cloud/ML/DE/Viz/Stats/Soft Skills) - computes skill co-occurrence and lift (association strength) - generates polished R visuals for reporting</p>
+</section>
+<section id="example-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="example-outputs">Example outputs</h3>
 <ul>
-<li>Python and SQL are the most common technical skills</li>
-<li>Distinct stacks appear:
+<li>Category prevalence across postings (what % mention Databases, Visualization, etc.)</li>
+<li>Top skills (SQL, Python, etc.)</li>
+<li>Lift-based stacks</li>
+</ul>
+</section>
+<section id="skills-demonstrated" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated">Skills demonstrated</h3>
 <ul>
-<li>BI: SQL Server + Power BI</li>
-<li>ML: PyTorch + TensorFlow</li>
-<li>Data Engineering: Hadoop + Spark</li>
-</ul></li>
+<li>Data pipeline engineering (joins, cleaning, reproducible outputs)</li>
+<li>Association analysis (lift) and support filtering</li>
+<li>R visualization (ggplot2) and communication</li>
 </ul>
 </section>
 <section id="example-visualizations" class="level3">

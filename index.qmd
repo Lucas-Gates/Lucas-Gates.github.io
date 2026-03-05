@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-Hi, I’m **Lucas Gates**, a Data Science student at the University of Missouri (Mizzou).
+Hi, I’m Lucas Gates, a Data Science and Computer Science student at the University of Missouri (Mizzou).
 
 I’m interested in data science + software engineering, especially projects involving:
 - Python / R

@@ -130,9 +130,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
-  <li><a href="#example-visualizations" id="toc-example-visualizations" class="nav-link" data-scroll-target="#example-visualizations">Example Visualizations</a></li>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#what-i-built" id="toc-what-i-built" class="nav-link" data-scroll-target="#what-i-built">What I built</a></li>
+  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key features</a></li>
+  <li><a href="#skills-demonstrated" id="toc-skills-demonstrated" class="nav-link" data-scroll-target="#skills-demonstrated">Skills demonstrated</a></li>
   </ul>
 </nav>
     </div>
@@ -159,14 +160,37 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Repo:</strong> https://github.com/Lucas-Gates/SoundtrackSafeguard</p>
-<section id="summary" class="level3">
-<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<section id="problem" class="level3">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>In classrooms or school events, playlists can accidentally include songs with inappropriate language or content. Teachers often want a fast way to screen and control what gets played.</p>
 </section>
-<section id="key-results" class="level3">
-<h3 class="anchored" data-anchor-id="key-results">Key Results</h3>
+<section id="what-i-built" class="level3">
+<h3 class="anchored" data-anchor-id="what-i-built">What I built</h3>
+<p>A desktop application that helps make Spotify safer for classroom use by scanning playlists and using user-defined restrictions.</p>
+<ul>
+<li>The app launches via <code>main.py</code> using Tkinter</li>
+<li><code>Playlist_Scanner.py</code> fetches playlist + track metadata via the Spotify API</li>
+<li><code>OpenAI_app.py</code> evaluates song content against restrictions (and supports saved settings)</li>
+<li><code>Spotify_Song_Adder.py</code> uses Spotipy OAuth to add approved songs to playlists</li>
+</ul>
 </section>
-<section id="example-visualizations" class="level3">
-<h3 class="anchored" data-anchor-id="example-visualizations">Example Visualizations</h3>
+<section id="key-features" class="level3">
+<h3 class="anchored" data-anchor-id="key-features">Key features</h3>
+<ul>
+<li>Playlist scanning and filtering workflow</li>
+<li>Configurable restrictions (artists/words/settings)</li>
+<li>Saved preferences for faster repeat use</li>
+<li>Spotify integration (read playlist + modify playlist)</li>
+</ul>
+</section>
+<section id="skills-demonstrated" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated">Skills demonstrated</h3>
+<ul>
+<li>Python desktop UI (Tkinter)</li>
+<li>API integration (Spotify)</li>
+<li>OAuth authentication flow (Spotipy/Flask)</li>
+<li>Responsible filtering logic + saved settings</li>
+</ul>
 
 
 </section>

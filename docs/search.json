@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Hi, I’m Lucas Gates, a Data Science student at the University of Missouri (Mizzou).\nI’m interested in data science + software engineering, especially projects involving: - Python / R - data pipelines - analytics and visualization\nYou can find my work on GitHub: https://github.com/Lucas-Gates"
+    "text": "Hi, I’m Lucas Gates, a Data Science and Computer Science student at the University of Missouri (Mizzou).\nI’m interested in data science + software engineering, especially projects involving: - Python / R - data pipelines - analytics and visualization\nYou can find my work on GitHub: https://github.com/Lucas-Gates"
   },
   {
     "objectID": "isa.html",
@@ -165,28 +165,28 @@
     "href": "projects/soundtrack_safeguard.html",
     "title": "Soundtrack Safeguard",
     "section": "",
-    "text": "Repo: https://github.com/Lucas-Gates/SoundtrackSafeguard\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+    "text": "Repo: https://github.com/Lucas-Gates/SoundtrackSafeguard\n\nProblem\nIn classrooms or school events, playlists can accidentally include songs with inappropriate language or content. Teachers often want a fast way to screen and control what gets played.\n\n\nWhat I built\nA desktop application that helps make Spotify safer for classroom use by scanning playlists and using user-defined restrictions.\n\nThe app launches via main.py using Tkinter\nPlaylist_Scanner.py fetches playlist + track metadata via the Spotify API\nOpenAI_app.py evaluates song content against restrictions (and supports saved settings)\nSpotify_Song_Adder.py uses Spotipy OAuth to add approved songs to playlists\n\n\n\nKey features\n\nPlaylist scanning and filtering workflow\nConfigurable restrictions (artists/words/settings)\nSaved preferences for faster repeat use\nSpotify integration (read playlist + modify playlist)\n\n\n\nSkills demonstrated\n\nPython desktop UI (Tkinter)\nAPI integration (Spotify)\nOAuth authentication flow (Spotipy/Flask)\nResponsible filtering logic + saved settings"
   },
   {
     "objectID": "projects/isa.html",
     "href": "projects/isa.html",
     "title": "Internship Skill Analysis",
     "section": "",
-    "text": "Repo: https://github.com/Lucas-Gates/internship_skill_analysis\n\nSummary\nThis project analyzes early-career job postings to identify in-demand skills and statistically meaningful technical stacks.\n\n\nKey Results\n\nPython and SQL are the most common technical skills\nDistinct stacks appear:\n\nBI: SQL Server + Power BI\nML: PyTorch + TensorFlow\nData Engineering: Hadoop + Spark\n\n\n\n\nExample Visualizations"
+    "text": "Repo: https://github.com/Lucas-Gates/internship_skill_analysis\n\nProblem\nEarly-career data roles have inconsistent job titles and messy skill labels. It’s hard to quickly understand what skills and “stacks” are most common for internships/entry-level roles.\n\n\nThe Project\nAn end-to-end Python + R analysis pipeline that: - merges job postings, extracted skills, and summaries using job_link - filters for early-career roles (intern/new grad/entry-level keywords) - normalizes skill labels using alias mapping + whitespace/case cleaning - categorizes skills (Language/Database/Cloud/ML/DE/Viz/Stats/Soft Skills) - computes skill co-occurrence and lift (association strength) - generates polished R visuals for reporting\n\n\nExample outputs\n\nCategory prevalence across postings (what % mention Databases, Visualization, etc.)\nTop skills (SQL, Python, etc.)\nLift-based stacks\n\n\n\nSkills demonstrated\n\nData pipeline engineering (joins, cleaning, reproducible outputs)\nAssociation analysis (lift) and support filtering\nR visualization (ggplot2) and communication\n\n\n\nExample Visualizations"
   },
   {
     "objectID": "projects/ffdc.html",
     "href": "projects/ffdc.html",
     "title": "Fast Food Data Comparison",
     "section": "",
-    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nProblem\nPeople compare fast food chains using opinions, but there’s a lot of measurable data: - nutrition per item - price/value - reviews\n\n\nThe Project\nA data pipeline that collects and compares fast-food chains using multiple sources, then stores everything in a SQLite database for analysis.\n\ncollect_data.py includes web scraping logic (menus/prices/calories) and external data collection\nstore_data.py builds a normalized SQLite database (final.db) and loads datasets into tables\nanalyze_data.py queries the DB and produces comparison plots (nutrition metrics, etc.)\n\n\n\nKey Features\n\nMulti-source ingestion (web + CSV + DB)\nAnalysis driven by SQL queries\nVisual comparison outputs\n\n\n\nSkills demonstrated\n\nWeb scraping (BeautifulSoup + requests)\nDatabase design + ETL into SQLite\nAnalytics using SQL + Python\nVisualization and interpretation"
+    "text": "Repo: https://github.com/Lucas-Gates/fast-food-analysis\n\nProblem\nPeople compare fast food chains using opinions, but there’s a lot of measurable data: - nutrition per item - price/value - reviews\n\n\nThe Project\nA data pipeline that collects and compares fast-food chains using multiple sources, then stores everything in a SQLite database for analysis.\n\ncollect_data.py includes web scraping logic (menus/prices/calories) and external data collection\nstore_data.py builds a normalized SQLite database (final.db) and loads datasets into tables\nanalyze_data.py queries the DB and produces comparison plots (nutrition metrics, etc.)\n\n\n\nKey Features\n\nMulti-source ingestion (web + CSV + DB)\nAnalysis driven by SQL queries\nVisual comparison outputs\n\n\n\nSkills demonstrated\n\nWeb scraping (BeautifulSoup + requests)\nDatabase design + ETL into SQLite\nAnalytics using SQL + Python\nVisualization and interpretation\n\n\n\nExample Visualizations"
   },
   {
     "objectID": "projects/missouri.html",
     "href": "projects/missouri.html",
     "title": "Missouri Budget Graph Maker",
     "section": "",
-    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nProblem\nBudget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.\n\n\nThe Project\nA lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.\n\ncontrol_panel.py implements a Tkinter control panel UI\ngraph.py loads a CSV (for example: 2024_State_Expenditures.csv) and generates Matplotlib bar charts\nmain.py launches the app\n\n\n\nKey features\n\nGUI-driven filtering/sorting\nFast category exploration\nAutomatically generates readable bar charts\n\n\n\nSkills demonstrated\n\nPython desktop UI (Tkinter)\nData wrangling in pandas\nVisualization in Matplotlib"
+    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nProblem\nBudget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.\n\n\nThe Project\nA lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.\n\ncontrol_panel.py implements a Tkinter control panel UI\ngraph.py loads a CSV (for example: 2024_State_Expenditures.csv) and generates Matplotlib bar charts\nmain.py launches the app\n\n\n\nKey features\n\nGUI-driven filtering/sorting\nFast category exploration\nAutomatically generates readable bar charts\n\n\n\nSkills demonstrated\n\nPython desktop UI (Tkinter)\nData wrangling in pandas\nVisualization in Matplotlib\n\n\n\nExample Visualizations"
   },
   {
     "objectID": "projects/missouri.html#missouri-budget-graph-maker",
