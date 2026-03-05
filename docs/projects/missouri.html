@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Missouri Budget Data Analysis – Lucas Gates</title>
+<title>Missouri Budget Graph Maker – Lucas Gates</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -92,19 +92,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../pages/index.qmd"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../pages/projects.qmd"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../pages/resume.qmd"> 
+    <a class="nav-link" href="../resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../pages/faq.qmd"> 
+    <a class="nav-link" href="../faq.html"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
 </ul>
@@ -130,9 +130,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
-  <li><a href="#example-visualizations" id="toc-example-visualizations" class="nav-link" data-scroll-target="#example-visualizations">Example Visualizations</a></li>
+  <li><a href="#problem" id="toc-problem" class="nav-link active" data-scroll-target="#problem">Problem</a></li>
+  <li><a href="#what-i-built" id="toc-what-i-built" class="nav-link" data-scroll-target="#what-i-built">What I built</a></li>
+  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key features</a></li>
+  <li><a href="#skills-demonstrated" id="toc-skills-demonstrated" class="nav-link" data-scroll-target="#skills-demonstrated">Skills demonstrated</a></li>
+  <li><a href="#how-to-run-typical" id="toc-how-to-run-typical" class="nav-link" data-scroll-target="#how-to-run-typical">How to run (typical)</a></li>
   </ul>
 </nav>
     </div>
@@ -141,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Missouri Budget Data Analysis</h1>
+<h1 class="title">Missouri Budget Graph Maker</h1>
 </div>
 
 
@@ -158,15 +160,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Repo:</strong> https://github.com/Lucas-Gates/mo-gov-budget-graph-ui</p>
-<section id="summary" class="level3">
-<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<section id="problem" class="level3">
+<h3 class="anchored" data-anchor-id="problem">Problem</h3>
+<p>Budget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.</p>
 </section>
-<section id="key-results" class="level3">
-<h3 class="anchored" data-anchor-id="key-results">Key Results</h3>
+<section id="what-i-built" class="level3">
+<h3 class="anchored" data-anchor-id="what-i-built">What I built</h3>
+<p>A lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.</p>
+<ul>
+<li><code>control_panel.py</code> implements a Tkinter control panel UI</li>
+<li><code>graph.py</code> loads a CSV (for example: <code>2024_State_Expenditures.csv</code>) and generates Matplotlib bar charts</li>
+<li><code>main.py</code> launches the app</li>
+</ul>
 </section>
-<section id="example-visualizations" class="level3">
-<h3 class="anchored" data-anchor-id="example-visualizations">Example Visualizations</h3>
+<section id="key-features" class="level3">
+<h3 class="anchored" data-anchor-id="key-features">Key features</h3>
+<ul>
+<li>GUI-driven filtering/sorting</li>
+<li>Fast category exploration</li>
+<li>Automatically generates readable bar charts</li>
+</ul>
+</section>
+<section id="skills-demonstrated" class="level3">
+<h3 class="anchored" data-anchor-id="skills-demonstrated">Skills demonstrated</h3>
+<ul>
+<li>Python desktop UI (Tkinter)</li>
+<li>Data wrangling in pandas</li>
+<li>Visualization in Matplotlib</li>
+<li>Project structure + reproducible run entrypoint</li>
+</ul>
+</section>
+<section id="how-to-run-typical" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-run-typical">How to run (typical)</h3>
+<p>From the project root (where requirements are installed): ```bash python src/python/main.py</p>
 
 
 </section>

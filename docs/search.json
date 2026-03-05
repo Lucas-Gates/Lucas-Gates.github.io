@@ -184,8 +184,15 @@
   {
     "objectID": "projects/missouri.html",
     "href": "projects/missouri.html",
-    "title": "Missouri Budget Data Analysis",
+    "title": "Missouri Budget Graph Maker",
     "section": "",
-    "text": "Repo: https://github.com/Lucas-Gates/mo-gov-budget-graph-ui\n\nSummary\n\n\nKey Results\n\n\nExample Visualizations"
+    "text": "Problem\nBudget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.\n\n\nWhat I built\nA lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.\n\ncontrol_panel.py implements a Tkinter control panel UI\ngraph.py loads a CSV (for example: 2024_State_Expenditures.csv) and generates Matplotlib bar charts\nmain.py launches the app\n\n\n\nKey features\n\nGUI-driven filtering/sorting\nFast category exploration\nAutomatically generates readable bar charts\n\n\n\nSkills demonstrated\n\nPython desktop UI (Tkinter)\nData wrangling in pandas\nVisualization in Matplotlib\nProject structure + reproducible run entrypoint\n\n\n\nHow to run (typical)\nFrom the project root (where requirements are installed): ```bash python src/python/main.py"
+  },
+  {
+    "objectID": "projects/missouri.html#missouri-budget-graph-maker",
+    "href": "projects/missouri.html#missouri-budget-graph-maker",
+    "title": "Missouri Budget Graph Maker",
+    "section": "",
+    "text": "Budget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.\n\n\n\nA lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.\n\ncontrol_panel.py implements a Tkinter control panel UI\ngraph.py loads a CSV (for example: 2024_State_Expenditures.csv) and generates Matplotlib bar charts\nmain.py launches the app\n\n\n\n\n\nGUI-driven filtering/sorting\nFast category exploration\nAutomatically generates readable bar charts\n\n\n\n\n\nPython desktop UI (Tkinter)\nData wrangling in pandas\nVisualization in Matplotlib\nProject structure + reproducible run entrypoint\n\n\n\n\nFrom the project root (where requirements are installed): ```bash python src/python/main.py"
   }
 ]

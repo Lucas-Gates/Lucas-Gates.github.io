@@ -1,15 +1,29 @@
 ---
-title: "Missouri Budget Data Analysis"
+title: "Missouri Budget Graph Maker"
 ---
 
-**Repo:** https://github.com/Lucas-Gates/mo-gov-budget-graph-ui
+### Problem
+Budget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.
 
-### Summary
+### What I built
+A lightweight desktop GUI (Tkinter) that loads Missouri state expenditure data and lets a user generate charts with a few clicks.
 
+- `control_panel.py` implements a Tkinter control panel UI
+- `graph.py` loads a CSV (for example: `2024_State_Expenditures.csv`) and generates Matplotlib bar charts
+- `main.py` launches the app
 
-### Key Results
+### Key features
+- GUI-driven filtering/sorting
+- Fast category exploration
+- Automatically generates readable bar charts
 
+### Skills demonstrated
+- Python desktop UI (Tkinter)
+- Data wrangling in pandas
+- Visualization in Matplotlib
+- Project structure + reproducible run entrypoint
 
-
-### Example Visualizations
-
+### How to run (typical)
+From the project root (where requirements are installed):
+```bash
+python src/python/main.py
