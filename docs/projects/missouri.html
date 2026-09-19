@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.28">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-49e51e44f424ea8c7044b429bdbbbfe2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -104,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../faq.html"> 
+    <a class="nav-link" href="../faq.qmd"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
 </ul>
@@ -134,7 +137,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#the-project" id="toc-the-project" class="nav-link" data-scroll-target="#the-project">The Project</a></li>
   <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key features</a></li>
   <li><a href="#skills-demonstrated" id="toc-skills-demonstrated" class="nav-link" data-scroll-target="#skills-demonstrated">Skills demonstrated</a></li>
-  <li><a href="#example-visualizations" id="toc-example-visualizations" class="nav-link" data-scroll-target="#example-visualizations">Example Visualizations</a></li>
   </ul>
 </nav>
     </div>
@@ -161,6 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Repo:</strong> https://github.com/Lucas-Gates/mo-gov-budget-graph-ui</p>
+<p><img src="../assets/missouri_budget.gif" class="img-fluid"></p>
 <section id="problem" class="level3">
 <h3 class="anchored" data-anchor-id="problem">Problem</h3>
 <p>Budget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.</p>
@@ -189,9 +192,6 @@ ul.task-list li input[type="checkbox"] {
 <li>Data wrangling in pandas</li>
 <li>Visualization in Matplotlib</li>
 </ul>
-</section>
-<section id="example-visualizations" class="level3">
-<h3 class="anchored" data-anchor-id="example-visualizations">Example Visualizations</h3>
 
 
 </section>

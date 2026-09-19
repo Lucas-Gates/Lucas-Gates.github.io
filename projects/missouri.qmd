@@ -4,6 +4,8 @@ title: "Missouri Budget Graph Maker"
 
 **Repo:** https://github.com/Lucas-Gates/mo-gov-budget-graph-ui
 
+![](../assets/missouri_budget.gif)
+
 ### Problem
 Budget/expenditure data is often published as large spreadsheets that are difficult to explore quickly without writing code or manually filtering.
 
