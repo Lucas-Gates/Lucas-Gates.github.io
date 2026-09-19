@@ -2,7 +2,7 @@
 title: "Internship Skill Analysis"
 ---
 
-**Repo:** https://github.com/Lucas-Gates/internship_skill_analysis
+**Repo:** [https://github.com/Lucas-Gates/internship_skill_analysis](https://github.com/Lucas-Gates/internship_skill_analysis)
 
 ### Problem
 Early-career data roles have inconsistent job titles and messy skill labels. It’s hard to quickly understand what skills and “stacks” are most common for internships/entry-level roles.
@@ -31,3 +31,5 @@ An end-to-end Python + R analysis pipeline that:
 ![](../assets/top_20_skills.png)
 
 ![](../assets/top_lift_pairs.png)
+
+![](../assets/category_share.png)

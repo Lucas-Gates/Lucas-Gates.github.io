@@ -2,7 +2,9 @@
 title: "Soundtrack Safeguard"
 ---
 
-**Repo:** https://github.com/Lucas-Gates/SoundtrackSafeguard
+**Repo:** [https://github.com/Lucas-Gates/SoundtrackSafeguard](https://github.com/Lucas-Gates/SoundtrackSafeguard)
+
+![](../assets/ss_demo.gif)
 
 ### Problem
 In classrooms or school events, playlists can accidentally include songs with inappropriate language or content. Teachers often want a fast way to screen and control what gets played.

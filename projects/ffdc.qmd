@@ -2,7 +2,7 @@
 title: "Fast Food Data Comparison"
 ---
 
-**Repo:** https://github.com/Lucas-Gates/fast-food-analysis
+**Repo:** [https://github.com/Lucas-Gates/fast-food-analysis](https://github.com/Lucas-Gates/fast-food-analysis)
 
 ### Problem
 People compare fast food chains using opinions, but there’s a lot of measurable data:
@@ -27,3 +27,11 @@ A data pipeline that collects and compares fast-food chains using multiple sourc
 - Database design + ETL into SQLite
 - Analytics using SQL + Python
 - Visualization and interpretation
+
+### Example Visualizations
+
+![](../assets/average_macros.png)
+
+![](../assets/highest_cal_items.png)
+
+![](../assets/longer_burger_names.png)
