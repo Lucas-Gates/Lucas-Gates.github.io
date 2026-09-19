@@ -40,5 +40,12 @@
     "title": "Projects",
     "section": "",
     "text": "Internship Skill Analysis \n Missouri Budget Graph Maker \n Fast Food Data Comparison \n Soundtrack Safeguard"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hi, I’m Lucas Gates, a Data Science and Computer Science student at the University of Missouri (Mizzou).\nI’m interested in data science + software engineering, especially projects involving: - Python / R - data pipelines - analytics and visualization\nYou can find my work on GitHub: https://github.com/Lucas-Gates"
   }
 ]
