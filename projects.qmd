@@ -27,8 +27,16 @@ title: "Projects"
 
 <div class="project-grid">
 
+<a href="projects/traffic_safety.qmd" class="project-card">
+Traffic Safety Intelligence
+</a>
+
 <a href="projects/isa.qmd" class="project-card">
 Internship Skill Analysis
+</a>
+
+<a href="projects/soundtrack_safeguard.qmd" class="project-card">
+Soundtrack Safeguard
 </a>
 
 <a href="projects/missouri.qmd" class="project-card">
@@ -37,10 +45,6 @@ Missouri Budget Graph Maker
 
 <a href="projects/ffdc.qmd" class="project-card">
 Fast Food Data Comparison
-</a>
-
-<a href="projects/soundtrack_safeguard.qmd" class="project-card">
-Soundtrack Safeguard
 </a>
 
 </div>

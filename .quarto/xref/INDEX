@@ -79,5 +79,8 @@
   },
   "resume.qmd": {
     "resume.html": "d957604e"
+  },
+  "projects/traffic_safety.qmd": {
+    "traffic_safety.html": "b8f0a9aa"
   }
 }
