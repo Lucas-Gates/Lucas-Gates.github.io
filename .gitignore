@@ -1,2 +1,5 @@
 /.quarto/
-**/*.quarto_ipynb
+/_site/
+/_*.local
+.DS_Store
+.Rproj.user/
